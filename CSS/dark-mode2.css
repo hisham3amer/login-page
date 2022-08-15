@@ -274,10 +274,10 @@ body > div.welcome > div > form > div.log > p > a{
     content: 'AR';
     color: var(--lang-color);
     position: absolute;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 800;
     bottom: -11px;
-    left: -12px;
+    left: -7px;
 }
 .lang{
     display: flex;
