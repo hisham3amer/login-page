@@ -255,15 +255,8 @@ body > div.welcome > div > form > div.log > p > a{
     font-weight: 600;
     text-decoration: none;
 }
-.change-lang{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
 .icon{
-    font-size: 30px;
+    font-size: 25px;
     color: var(--lang-color);
     position: relative;
 }
@@ -272,15 +265,45 @@ body > div.welcome > div > form > div.log > p > a{
     content: "\f0ac";
     position: absolute;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 13px;
     font-family: 'Font Awesome 5 Free';
-    top: 5px;
-    left: 7px;
+    top: 6px;
+    left: 6px;
 }
-body > div.change-lang > p{
-    font-size: 20px;
+.icon::after{
+    content: 'AR';
+    color: var(--lang-color);
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    bottom: -11px;
+    left: -12px;
+}
+.lang{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.lang > p{
+    font-size: 13px;
     color: var(--lang-color);
     font-weight: 800;
     line-height: 0;
 }
-
+.foot{
+    margin: 0 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body > div.foot > div.call-center{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: var(--lang-color);
+    font-size: 17px;
+    font-weight: 700;
+}
